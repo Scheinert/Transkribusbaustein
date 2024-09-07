@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "transkribusbaustein_1",
+			"path": "../transkribusbaustein_1"
+		}
+	],
+	"settings": {
+		"cSpell.language": "en,de-DE"
+	}
+}
