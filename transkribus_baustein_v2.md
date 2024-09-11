@@ -113,7 +113,7 @@ Importfunktionen
 
 
 {{0-1}}
-Wenn sie einen Text spontan transkribieren oder einfach mal die Funktionen von Transkribus ausprobieren möchten, können sie mit Transkribus AI einfach ein Dokument hochladen, die entsprechende Sprache auswählen und ihr Dokument erkennen lassen. Dies funktioniert auch vom Smartphone aus-> [Transkribus AI](https://transkribus.ai/)
+Wenn Sie einen Text spontan transkribieren oder einfach mal die Funktionen von Transkribus ausprobieren möchten, können Sie mit Transkribus AI einfach ein Dokument hochladen, die entsprechende Sprache auswählen und ihr Dokument erkennen lassen. Dies funktioniert auch vom Smartphone aus-> [Transkribus AI](https://transkribus.ai/)
 
 {{1-2}}
 Exportfunktionen
@@ -210,7 +210,7 @@ Abschließend sei hier auf die beiden Schaltflächen oben rechts verwiesen:
 
 {{3-4}}
 1. **Jobs:**
-   - Hier erhalten sie einen Überblick über die letzten Aufträge ("Jobs") die auf dem Server der  READ-COOPausgeführt wurden. Dort können Sie überprüfen, ob Ihre Digitalisate fertig hochgeladen wurden, Ihr Modelltraining abgeschlossen ist oder aber Ihre Layout- und Text Recognition fertig ist.
+   - Hier erhalten Sie einen Überblick über die letzten Aufträge ("Jobs") die auf dem Server der  READ-COOPausgeführt wurden. Dort können Sie überprüfen, ob ihre Digitalisate fertig hochgeladen wurden, ihr Modelltraining abgeschlossen ist oder aber Ihre Layout- und Text Recognition fertig ist.
 2. **Profil Icon**
    - Hier könnnen Sie Ihr Profil verwalten, die Sprache einstellen oder Ihren Creditverbrauch überwachen.
 
@@ -235,7 +235,7 @@ Nachdem die Collection angelegt wurde, wählen Sie diese aus und klicken Sie auf
 </div>
 
 {{2-3}}
-Nachdem Sie Ihre Dateien hochgeladen haben dauert es einen Moment, bis Ihnen Ihre Digitalisate angezeigt werden, da diese auf dem Server abgelegt werden müssen. Danach finden Sie sie zusammengefasst als Document in der Collection. Sie können unter dem Reiter "Jobs" überprüfen, ob der Upload abgeschlossen ist.
+Nachdem Sie ihre Dateien hochgeladen haben dauert es einen Moment, bis Ihnen Ihre Digitalisate angezeigt werden, da diese auf dem Server abgelegt werden müssen. Danach finden Sie sie zusammengefasst als Document in der Collection. Sie können unter dem Reiter "Jobs" überprüfen, ob der Upload abgeschlossen ist.
 
 
 {{2-3}}
@@ -263,7 +263,7 @@ Wenn Sie nun auf einen der Briefe klicken, öffnet sich der Editor. Hier stehen 
 6.
   - Hier sind verschiedene Verknüpfungen zum Export, für Hilfe oder zum Teilen vereint. 
 7.
-  - Versionskontrolle: Hier erhalten Sie einen Überblick über alle gespeicherten Varianten ihres Digitalisates und können jederzeit auf einen früheren Bearbeitungszustand zurückgreifen.
+  - Versionskontrolle: Hier erhalten Sie einen Überblick über alle gespeicherten Varianten Ihres Digitalisates und können jederzeit auf einen früheren Bearbeitungszustand zurückgreifen.
 8.
   - Hier lassen sich Fehler mit den Pfeilen rückgängig machen und mit dem danebenliegenden Dropdown-Menü können Sie dem Dokument einen Status zuordnen.
 9.
@@ -291,7 +291,7 @@ Die Einstellungsmöglichkeiten:
 ### 2.3.1 Der Editor zum manuellen transkribieren
 
 {{0-1}}
-Wenn Sie nun Ihre Quelle manuell transkribieren möchten, so müssen Sie zuerst im Digitalisat die Fläche definieren, in der sich der zu transkribierende Text befindet. Dafür wählen Sie in der Leiste oben rechts das Tool "Add Region" aus und ziehen eine Fläche über die ganze Seite. Wenn Sie dies gemacht haben, erscheint im rechten Feld ein Banner mit "Region 1". Die daraus resultierende Fläche definiert den Bereich, in dem ein Text vorhanden ist.
+Wenn Sie nun ihre Quelle manuell transkribieren möchten, so müssen Sie zuerst im Digitalisat die Fläche definieren, in der sich der zu transkribierende Text befindet. Dafür wählen Sie in der Leiste oben rechts das Tool "Add Region" aus und ziehen eine Fläche über die ganze Seite. Wenn Sie dies gemacht haben, erscheint im rechten Feld ein Banner mit "Region 1". Die daraus resultierende Fläche definiert den Bereich, in dem ein Text vorhanden ist.
 
 {{0-1}}
 1. 
@@ -305,7 +305,7 @@ Wenn Sie nun Ihre Quelle manuell transkribieren möchten, so müssen Sie zuerst 
 ![Bild g](transkribus2\Bilder\Textregion.png)
 
 {{1-2}}
-Nun müssen Sie die Bereiche innerhalb der Textregion definieren, in denen die Textzeilen stehen. Dafür wählen Sie aus den Tools "Add Line" aus und ziehen die Linien (Baselines) entlang der Zeilen in Ihrer Quelle. Dadurch definieren Sie die Zeilen in Ihrer Textregion und fügen dann automatisch auf der rechten Seite die Zeile ein. Dadurch können Sie nun auf der rechten Seite die Transkription der entsprechenden Zeile vornehmen. Das Setzen der Textregion und der Baselines wird in der Layoutrecognition automatisch ausgeführt, wenn Sie Texte automatisch transkribieren lassen. Dies ist jedoch fehleranfälliger, da die KI z.B. auch etwaige Verunreinigungen oder Randnotizen als eine vollwertige Zeile anerkennen kann.
+Nun müssen Sie die Bereiche innerhalb der Textregion definieren, in denen die Textzeilen stehen. Dafür wählen Sie aus den Tools "Add Line" aus und ziehen die Linien (Baselines) entlang der Zeilen in ihrer Quelle. Dadurch definieren Sie die Zeilen in ihrer Textregion und fügen dann automatisch auf der rechten Seite die Zeile ein. Dadurch können Sie nun auf der rechten Seite die Transkription der entsprechenden Zeile vornehmen. Das Setzen der Textregion und der Baselines wird in der Layoutrecognition automatisch ausgeführt, wenn Sie Texte automatisch transkribieren lassen. Dies ist jedoch fehleranfälliger, da die KI z.B. auch etwaige Verunreinigungen oder Randnotizen als eine vollwertige Zeile anerkennen kann.
 
 {{1-2}}
 ![Bild h](transkribus2\Bilder\Baselines.png)
@@ -313,7 +313,7 @@ Nun müssen Sie die Bereiche innerhalb der Textregion definieren, in denen die T
 ### 2.3.2 Automatisches transkribieren mit Modellen
 
 {{0-1}}
-Wenn Sie nun Ihre Digitalisate automatisch transkribieren möchten, so gibt es zwei Möglichkeiten:
+Wenn Sie nun ihre Digitalisate automatisch transkribieren möchten, so gibt es zwei Möglichkeiten:
 
 {{0-1}}
 1. Öffnen Sie die Collection, in der sich die Documents befinden, die Sie transkribieren lassen möchten. Wählen Sie hier die entsprechenden Seiten mit einem Häkchen aus. Klicken Sie anschließend auf „Recognise“
@@ -337,20 +337,20 @@ In diesem Menü können Sie nun einstellen, welches Modell Sie nutzen möchten.
 Nachdem Sie die Textrecognition gestartet haben, können Sie am oberen rechten Rand unter Jobs nachverfolgen, ob die Transkription abgeschlossen ist.
 
 {{2-3}}
-Auf der linken Seite zeigt sich der erkannte Text und die sogenannte Textregion und die Baselines (Zeilen, die das Modell erkannt und gelesen hat). Jede Baseline ist mit einer Nummer auf der rechten Seite verknüpft, die die Zeile angibt und den transkribierten Text anzeigt.
+Auf der linken Seite zeigt sich der erkannte Text sowie die sogenannte Textregion und die Baselines (Zeilen, die das Modell erkannt und gelesen hat). Jede Baseline ist mit einer Nummer auf der rechten Seite verknüpft, die die Zeile angibt und den transkribierten Text anzeigt.
 
 {{2-3}}
 ![Bild 8](transkribus2\Bilder\automatische_erkennung.png)
 
 {{3-4}}
 Alternativer Ansatz:
-Im Home Bildschirm werden Ihnen ihre Collections und ihre zuletzt genutzten Dokumente angezeigt. Sie können nun über den Button „Quick Text Recognition“ ihre Quellen direkt hochladen und mit einem Modell Lesen lassen.
+Im Home Bildschirm werden Ihnen ihre Collections und ihre zuletzt genutzten Dokumente angezeigt. Sie können nun über den Button „Quick Text Recognition“ ihre Quellen direkt hochladen und mit einem Modell lesen lassen.
 
 {{3-4}}
 ![Bild 8](transkribus2\Bilder\quick_recog1.png)
 
 {{4-5}}
-Geben Sie an, in welcher Sprache ihre Quelle geschrieben ist und ob sie handschriftliche oder gedruckt sind. Transkribus wählt dann anhand dieser Parameter das passende Modell zum automatischen Transkribieren aus. Wählen Sie dann eine Collection aus, in der ihre Quellen abgelegt werden sollen (Die Collection muss vorher erstellt werden) und fügen Sie die gewünschten Dateien ein.
+Geben Sie an, in welcher Sprache ihre Quelle geschrieben ist und ob sie handschriftlich oder gedruckt sind. Transkribus wählt dann anhand dieser Parameter das passende Modell zum automatischen Transkribieren aus. Wählen Sie dann eine Collection aus, in der ihre Quellen abgelegt werden sollen (die Collection muss vorher erstellt werden) und fügen Sie die gewünschten Dateien ein.
 
 {{4-5}}
 ![Bild 8](transkribus2\Bilder\Fast_recognition.png)
@@ -358,7 +358,7 @@ Geben Sie an, in welcher Sprache ihre Quelle geschrieben ist und ob sie handschr
 ## 2.4 Tagging: Annotation und Metadaten
 
 {{0-1}}
-Wenn Sie ihre Dokumente nun transkribiert haben, können sie ihre Texte mit Meta-Daten anreichern. Hierfür können Sie mit sogenannten "Tags" Wörter oder Sätze markieren, um ihnen eine Eigenschaft zuzuordnen. Damit sie die Tags nutzen können, müssen Sie diese erst für ihr jeweiliges Dokument aktivieren. Dies machen Sie in der Leiste rechts oben.
+Wenn Sie ihre Dokumente nun transkribiert haben, können Sie ihre Texte mit Meta-Daten anreichern. Hierfür können Sie mit sogenannten "Tags" Wörter oder Sätze markieren, um ihnen eine Eigenschaft zuzuordnen. Damit Sie die Tags nutzen können, müssen Sie diese erst für ihr jeweiliges Dokument aktivieren. Dies machen Sie in der Leiste rechts oben.
 
 {{0-1}}
 ![Bild 8](transkribus2\Bilder\Tag_0.png)
@@ -379,7 +379,7 @@ Für die Tagebuchseite aktivieren wir den Textual-Tag "place", um Orte markieren
 ![Bild 8](transkribus2\Bilder\Tag_1.png)
 
 {{2-3}}
-Nun können sie alle Orte im Text taggen. Markieren Sie dafür den entsprechenden Ort, hier ist es die Stadt Bromberg, und klicken sie dann auf den Tag "place". Nun ist die Stadt markiert und kann als Tag exportiert werden. Dies geschieht tabellarisch als XLSX-Datei. Hierfür benötigen sie jedoch mindestens ein "Scholar-Konto"
+Nun können Sie alle Orte im Text taggen. Markieren Sie dafür den entsprechenden Ort - hier ist es die Stadt Bromberg - und klicken Sie dann auf den Tag "place". Nun ist die Stadt markiert und kann als Tag exportiert werden. Dies geschieht tabellarisch als XLSX-Datei. Hierfür benötigen Sie jedoch mindestens ein "Scholar-Konto"
 
 {{2-3}}
 ![Bild 8](transkribus2\Bilder\Tag_2.png)
@@ -393,13 +393,13 @@ Nun können sie alle Orte im Text taggen. Markieren Sie dafür den entsprechende
 ![Bild 8](transkribus2\Bilder\Export_1.png)
 
 {{1-2}}
-Wählen Sie dann das entsprechende Dateiformat aus. Sie erhalten dann einen Downloadlink auf ihre angegebene Emailadresse, worüber sie ihre Transkription vom Server herunterladen können.
+Wählen Sie dann das entsprechende Dateiformat aus. Sie erhalten einen Downloadlink auf ihre angegebene Emailadresse, worüber Sie ihre Transkription vom Server herunterladen können.
 
 {{1-2}}
 ![Bild 8](transkribus2\Bilder\Export_2.png)
 
 ## 2.6 Das Transkribus Quiz
-Willkommen zum Quiz über Transkribus! Teste dein Wissen über dieses leistungsstarke Tool zur Transkription und Dokumentanalyse.
+Willkommen zum Quiz über Transkribus! Testen Sie ihr Wissen über dieses leistungsstarke Tool zur Transkription und Dokumentanalyse.
 
 ### Frage 1
 
@@ -412,7 +412,7 @@ Wie nennt man die Technologien, die für die automatische Transkription in Trans
 
 ### Frage 2
 
-Welche Dateiformate können sie zum Hochladen ihrer Quellen verwenden?
+Welche Dateiformate können Sie zum Hochladen ihrer Quellen verwenden?
 
 [[ ]] .docx
 [[x]] .pdf
@@ -447,18 +447,18 @@ Kann Transkribus sowohl gedruckten als auch handschriftlichen Text verarbeiten?
 
 ### Frage 6
 
-Wie können Nutzer ihre eigenen Modelle verbessern?
+Wie können Nutzer:innen ihre eigenen Modelle verbessern?
 
-[[ ]] Indem Sie sie möglichst oft verwenden
-[[x]] Indem Sie sicherstellen, dass ihre Ground Truth korrekt ist
-[[x]] Indem Sie sich bei der manuellen Transkriptionen an einheitliche Richtlinien halten
+[[ ]] Indem sie sie möglichst oft verwenden
+[[x]] Indem sie sicherstellen, dass ihre Ground Truth korrekt ist
+[[x]] Indem sie sich bei der manuellen Transkriptionen an einheitliche Richtlinien halten
 [[ ]] Durch das Teilen von Dokumenten auf Social Media
 
 ### Frage 7
 
 Die Transformermodelle...?
 
-[[x]] sind die größten Modelle die zum transkribieren genutzt werden können
+[[x]] sind die größten Modelle die zum Transkribieren genutzt werden können
 [[ ]] sind die kleinsten Modelle
 [[x]] sind kostenpflichtig
 [[ ]] lösen alle Probleme
@@ -490,22 +490,22 @@ In Transkribus lassen sich Texte nur manuell transkribieren?
 
 # 3. Modell-Training: Der Weg zum eigenen Modell
 
-Nachdem sie nun die grundlegenden Funktionen von Transkribus anhand von Gneisenaus Briefen kennengelernt haben, erhalten sie hier nun einen tieferen Einblick ins Modelltraining. Hierzu wird jedoch nicht auf die Brieffragmente zurückgegriffen.
+Nachdem Sie nun die grundlegenden Funktionen von Transkribus anhand von Gneisenaus Briefen kennengelernt haben, erhalten Sie hier nun einen tieferen Einblick ins Modelltraining. Hierzu wird jedoch nicht auf die Brieffragmente zurückgegriffen.
 
-Neben den öffentlichen Modellen, die sie nutzen können, um aus ihren Digitalisaten den Text zu extrahieren, besteht auch die Möglichkeit eigene Modelle zu trainieren. Eigene Modelle zu trainieren kann dann besonders Sinn ergeben, wenn:
+Neben den öffentlichen Modellen, die Sie nutzen können, um aus ihren Digitalisaten den Text zu extrahieren, besteht auch die Möglichkeit eigene Modelle zu trainieren. Eigene Modelle zu trainieren kann dann besonders Sinn ergeben, wenn:
 
-1. Wenn die öffentlichen Modelle nicht sehr gut auf Ihren Materialien funktionieren. Handschriften sind sehr Individuell, weshalb es teilweise sehr schwer ist, passende Modelle zu finden, die genau zum Digitalisat passen.
-2. Wenn sie viele Sonderzeichen in Ihren Handschriften haben, die nicht in öffentlichen Modellen enthalten sind.
-3. Wenn sie viele Seiten zum transkribieren haben.
+1. die öffentlichen Modelle nicht sehr gut auf Ihren Materialien funktionieren. Handschriften sind sehr individuell, weshalb es teilweise sehr schwer ist, passende Modelle zu finden, die genau zum Digitalisat passen.
+2. Sie viele Sonderzeichen in ihren Handschriften haben, die nicht in öffentlichen Modellen enthalten sind.
+3. Sie viele Seiten zum transkribieren haben.
 
-Für ein erstes kleines Modell brauchen sie zwischen 4.000-5.000 Wörtern. Öffnen Sie die Seite "Models" und klicken Sie auf "Train New Model". Dort können sie Auswählen , ob sie ein Text Recognition Modell oder ein Baselinemodel trainieren möchten. Baselinemodels dienen dazu, die Baselines bei komplexen Digitalisaten richtig zu setzen. Normalerweise werden diese bei der Layoutrecognition automatisch gesetzt. Wenn die Quelle jedoch von der Struktur her sehr anspruchsvoll ist und die die Layoutrecognition die Baselines nicht richtig setzt, kann man dann ein eigenes Modell trainieren. Das Training von Baselinemodels ist analog zu dem der Textrecognition.
+Für ein erstes kleines Modell brauchen Sie zwischen 4.000-5.000 Wörtern. Öffnen Sie die Seite "Models" und klicken Sie auf "Train New Model". Dort können Sie auswählen , ob Sie ein Text Recognition Modell oder ein Baselinemodel trainieren möchten. Baselinemodels dienen dazu, die Baselines bei komplexen Digitalisaten richtig zu setzen. Normalerweise werden diese bei der Layoutrecognition automatisch gesetzt. Wenn die Quelle jedoch von der Struktur her sehr anspruchsvoll ist und die die Layoutrecognition die Baselines nicht richtig setzt, kann man ein eigenes Modell trainieren. Das Training von Baselinemodels ist analog zu dem der Textrecognition.
 
 ![Bild 8](transkribus2\Bilder\Model_1.png)
 
 ## 3.1 Auswahl der Trainingsmaterialien
 
 {{0-1}}
-Wenn sie nun Ihr eigenes Modell trainieren möchten, so müssen sie nun die Collection und dann das Dokument auswählen, mit dem sie ein Modell trainieren möchten. (Da der Brief zu klein ist, um ausreichend Wörter für ein Modelltraining bereitzustellen, wird hier exemplarisch ein anderer Datensatz genutzt).
+Wenn Sie nun ihr eigenes Modell trainieren möchten, so müssen Sie erst die Collection und dann das Dokument auswählen, mit dem Sie ein Modell trainieren möchten. (Da der Brief zu klein ist, um ausreichend Wörter für ein Modelltraining bereitzustellen, wird hier exemplarisch ein anderer Datensatz genutzt).
 
 {{0-1}}
 ![Bild 8](transkribus2\Bilder\Collectionwahl.png)
@@ -515,7 +515,7 @@ Nachdem Sie ihr Dokument aufteilen in eine Ground Truth und in ein Validationset
 
 {{1-2}}
  1.
-Ground Truth: Die Seiten, die Sie zum trainieren des Modells verwenden bilden die Ground Truth.
+Ground Truth: Die Seiten, die Sie zum Trainieren des Modells verwenden bilden die Ground Truth.
  2.
 Validationset: Das Validationset dient dazu, zu evaluieren, wie gut das trainierte Modell performt.
 
@@ -526,8 +526,8 @@ Sie können auswählen, ob Transkribus selbst ein Validationset anhand von 10%, 
 ![Bild 8](transkribus2\Bilder\Seitenauswahl.png)
 
 {{2-3}}
-Wenn Sie nun ihren Datensatz aufgeteilt haben, können sie noch entsprechende Metadaten (Name, Zeitraum der Handschrift, Beschreibungen, etc.) hinzufügen.
-Außerdem können Sie sich hier entscheiden, ob sie ihr Modell auf einem bereits bestehenden trainieren möchten. Dies kann für Sie dann interessant sein, wenn ein öffentliches Modell grundsätzlich gut auf ihren Digitalisaten performt, jedoch mit einzelnen Zeichen Probleme hat. Sie können das entsprechende öffentliche Modell als Basis für ihr Modell nutzen und es mit ihrem Datensatz anpassen.
+Wenn Sie nun ihren Datensatz aufgeteilt haben, können Sie noch entsprechende Metadaten (Name, Zeitraum der Handschrift, Beschreibungen, etc.) hinzufügen.
+Außerdem können Sie sich hier entscheiden, ob Sie ihr Modell auf einem bereits bestehenden trainieren möchten. Dies kann für Sie dann interessant sein, wenn ein öffentliches Modell grundsätzlich gut auf ihren Digitalisaten performt, jedoch mit einzelnen Zeichen Probleme hat. Sie können das entsprechende öffentliche Modell als Basis für ihr Modell nutzen und es mit ihrem Datensatz anpassen.
 
 {{2-3}}
 ![Bild 8](transkribus2\Bilder\Parameter.png)
@@ -553,7 +553,7 @@ Wenn man jetzt bemessen möchte, wie gut das Modell funktioniert gibt es folgend
 
 2. Ein HTR-Modell gilt dann als gut, wenn es über 95% richtig transkribiert hat (also die CER < 5%)
 
-Transkribus verwendet nur die CER als Messzahl für die Modelle. Diese können sie dann in den Modellparametern nachgucken.
+Transkribus verwendet nur die CER als Messzahl für die Modelle. Diese können Sie dann in den Modellparametern nachgucken.
 
 Weiterführend dazu: [CER und WER Uni Greifswald](https://rechtsprechung-im-ostseeraum.archiv.uni-greifswald.de/word-error-rate-character-error-rate-how-to-evaluate-a-model/)
 
@@ -561,15 +561,15 @@ Weiterführend dazu: [CER und WER Uni Greifswald](https://rechtsprechung-im-osts
 
 Wenn Sie selbst ein Modell trainieren möchten, so gibt es hier ein paar Hinweise:
 
-1. Stellen Sie Regeln für ihre Transkription und den Workflow auf. Transkribus kann Abkürzungen und Sonderzeichen erkennen und umsetzen. Wenn Sie in ihrer Ground Truth nur willkürlich die Sonderzeichen oder Abkürzungen genutzt haben, so kann es  beim automatisierten Transkribieren ebenfalls willkürlich wirken. Konsistenz ist wichtig.
+1. Stellen Sie Regeln für ihre Transkription und den Workflow auf. Transkribus kann Abkürzungen und Sonderzeichen erkennen und umsetzen. Wenn Sie in ihrer Ground Truth nur willkürlich die Sonderzeichen oder Abkürzungen genutzt haben, so kann es beim automatisierten Transkribieren ebenfalls willkürlich wirken. Konsistenz ist wichtig.
 
-2. Wenn Sie Modelle trainieren, so trainieren Sie ein Modell dass das Schriftbild erkennt und **nicht** die Sprache. Grammatik und Rechtschreibung werden von Modellen nicht beherrscht. Wenn Sie ausversehen z.B Großbuchstaben innerhalb von Wörtern vergessen oder stehen lassen, anstatt sie zu korrigieren, kann es sein, dass das Modell eben solche auch in den Text übernehmen wird.
+2. Wenn Sie Modelle trainieren, so trainieren Sie ein Modell dass das Schriftbild erkennt und **nicht** die Sprache. Grammatik und Rechtschreibung werden von Modellen nicht beherrscht. Wenn Sie aus versehen z.B Großbuchstaben innerhalb von Wörtern vergessen oder stehen lassen, anstatt sie zu korrigieren, kann es sein, dass das Modell eben solche auch in den Text übernehmen wird.
 
 3. Anstatt Fehler aus bestehenden Modellen "rauszutrainieren" ist es manchmal besser, die Ground Truth zu korrigieren und dann einmal ein vollständig neues Modell zu trainieren.
 
 4. Sie können alle Sonderzeichen und Symbole in Transkribus verwenden, die über einen Unicode verfügen.
 
-5. Nutzen Sie die Einstellungen und passen Sie den Editor an Ihr gewünschtes Format an.
+5. Nutzen Sie die Einstellungen und passen Sie den Editor an ihr gewünschtes Format an.
 
 6. Transformermodelle wie der "Text-Titan I" sind aktuell die größten Modelle in Transkribus. Sollten Sie ein "Scholar-Konto" haben, sollten Sie die ausprobieren.
 
@@ -579,19 +579,19 @@ Wenn Sie selbst ein Modell trainieren möchten, so gibt es hier ein paar Hinweis
 **Hilfe**
 
 {{0-1}}
-Sollten Sie Probleme oder Fragen bezüglich der Funktionen von Transkribus haben, so können sie im Online Handbuch der READ-COOP eine tieferen Einblick erhalten:
+Sollten Sie Probleme oder Fragen bezüglich der Funktionen von Transkribus haben, so können Sie im Online Handbuch der READ-COOP eine tieferen Einblick erhalten:
 [Handbuch Transkribus](https://help.transkribus.org/)
 
 {{0-1}}
-Sollten sie softwaretechnische Probleme, wie z.B fehlgeschlagene Exporte, haben, so können Sie sich auch direkt an den Helpdesk der READ-COOP wenden: [READ-COOP Helpdesk ](https://help.transkribus.org/kb-tickets/new)
+Sollten Sie softwaretechnische Probleme, wie z.B fehlgeschlagene Exporte, haben, so können Sie sich auch direkt an den Helpdesk der READ-COOP wenden: [READ-COOP Helpdesk ](https://help.transkribus.org/kb-tickets/new)
 
 {{0-1}}
 **Datenbanken**
 
 {{0-1}}
-1. Falls sie Modelle mit vielen verschiedenen Corpora trainieren möchten, können Sie sich die Groundtruth bei HTR-United [runterladen](https://htr-united.github.io/).
+1. Falls Sie Modelle mit vielen verschiedenen Corpora trainieren möchten, können Sie sich die Groundtruth bei HTR-United [runterladen](https://htr-united.github.io/).
 2. Außerdem gibt es weitere Datensätze auf dem Repositorium von Zenodo auch eine Datensätze, die für HTR interessant sind. [Zenodo](https://zenodo.org/)
-3. Weiterhin bieten auch Universitäten und Archive Digitalisate zum bearbeiten und erschließen an. Die Universitätsbibliothek Kiel verfügt über ein eigenes Repositorium in dem viele Drucke und Handschriften zur Verfügung stehen. [UB Repositorium](https://dibiki.ub.uni-kiel.de/viewer/index/)
+3. Weiterhin bieten auch Universitäten und Archive Digitalisate zum Bearbeiten und Erschließen an. Die Universitätsbibliothek Kiel verfügt über ein eigenes Repositorium in dem viele Drucke und Handschriften zur Verfügung stehen. [UB Repositorium](https://dibiki.ub.uni-kiel.de/viewer/index/)
 
 {{1-2}}
 Die READ-COOP betreibt auch einen eigenen Youtube-Kanal, auf dem Sie sich Tutorials, Webinars und die Vorträge der letzten Transkribus User Conference anschauen können.
@@ -600,7 +600,7 @@ Die READ-COOP betreibt auch einen eigenen Youtube-Kanal, auf dem Sie sich Tutori
 !?[Transkribus](https://www.youtube.com/watch?v=lCdL_kKBMn8&list=PL7UbQtd4qlhIMP1KfdjGW3C-KXTxw4KYb)
 
 {{2-3}}
-Falls sie sich mit tiefergehend mit ATR in den Geisteswissenschaften und Alternativen zu Transkribus auseinandersetzen wollen, sei Ihnen die Playlist des Deutschen Historischen Instituts Paris bezüglich Workflows bei ATR empfohlen.
+Falls sie sich tiefergehend mit ATR in den Geisteswissenschaften und Alternativen zu Transkribus auseinandersetzen wollen, sei Ihnen die Playlist des Deutschen Historischen Instituts Paris bezüglich Workflows bei ATR empfohlen.
 
 {{2-3}}
 !?[Transkribus](https://www.youtube.com/watch?v=Arxi4iHFQlM&list=PLDPrG35gxvrSxC86tTZJoEFLn3q0C7ds5)
@@ -613,12 +613,12 @@ Transkribus wird in den Geisteswissenschaften auf vielfältige Art und Weise ver
 **Scholarship**
 
 {{4-5}}
-Studierende und Forschende, die ein Projekt, sei es privat oder Universitär, mit Transkribus umsetzen möchten, können sich um ein Scholarship bewerben. Mit diesem Scholarship erhalten Sie Credits zur Unterstützung. Außerdem können auch Lehrende, die Transkribus für Schulprojekte nutzen möchten sich bewerben. [Zu den Scholarships](https://www.transkribus.org/scholarship)
+Studierende und Forschende, die ein Projekt, sei es privat oder universitär, mit Transkribus umsetzen möchten, können sich um ein Scholarship bewerben. Mit diesem Scholarship erhalten sie Credits zur Unterstützung. Außerdem können auch Lehrende, die Transkribus für Schulprojekte nutzen möchten sich bewerben. [Zu den Scholarships](https://www.transkribus.org/scholarship)
 
 # 5. Alternativen zu Transkribus
 
 {{0-1}}
-Auch wenn dieser Leitfaden hauptsächlich dazu dient eine Einführung in Transkribus und die automatisierte Texterkennung zu liefern sollen hier noch kurz Alternativen zu Trabskribus vorgestellt werden. Diese sollten besonders für die Interessant sein, die sich tiefergehend mit OCR und den Digital Humanities auseinandersetzen möchten.
+Auch wenn dieser Leitfaden hauptsächlich dazu dient, eine Einführung in Transkribus und die automatisierte Texterkennung zu liefern, sollen hier noch kurz Alternativen zu Transkribus vorgestellt werden. Diese sollten besonders für diejenigen interessant sein, die sich tiefergehend mit OCR und den Digital Humanities auseinandersetzen möchten.
 
 {{1-2}}
 [eScriptorium](https://www.sofer.info/) ist eine Open-Source alternative, die auf der OCR-Software Kraken basiert. Dies hat den Vorteil, dass es auch möglich ist, seine eigenen, trainierten Modelle zu exportieren. Jedoch muss dafür eine eigenen Instanz auf einem Server oder lokal auf dem PC installiert werden oder aber man erhält über eine Institution einen Zugang.
@@ -651,7 +651,7 @@ Auch wenn dieser Leitfaden hauptsächlich dazu dient eine Einführung in Transkr
  </iframe>
 
 {{4-5}}
-[Arkindex](https://teklia.com/our-solutions/) ist ein Produkt von Teklia und bietet genau wie Transkribus eine Plattform zum Bearbeiten und Transkribieren von Dokumenten. In Arkindex können nicht nur die Transkriptionen sondern auch die dazugehörigen Zeilen im Bild annotiert werden. Teklia ist aber auch als Partner  bei eScriptorium involviert.
+[Arkindex](https://teklia.com/our-solutions/) ist ein Produkt von Teklia und bietet genau wie Transkribus eine Plattform zum Bearbeiten und Transkribieren von Dokumenten. In Arkindex können nicht nur die Transkriptionen sondern auch die dazugehörigen Zeilen im Bild annotiert werden. Teklia ist auch als Partner bei eScriptorium involviert.
 
 {{4-5}}
 ![Bild 8](transkribus2\Bilder\Arkindex.png)
@@ -730,7 +730,7 @@ In diesem Glossar sollen einmal die wichtigsten Begriffe gesammelt werden. Jeder
 10. [XML](https://www.digitale-edition.at/o:konde.215)
 
 {{1-2}}
-Die wichtigsten Begriffe für Tranksrbus sind mit dem entsprechenden Quellen verlinkt, falls sie sich tiefergehend damit auseinandersetzen wollen.
+Die wichtigsten Begriffe für Transkribus sind mit dem entsprechenden Quellen verlinkt, falls Sie sich tiefergehend damit auseinandersetzen wollen.
 
 {{1-2}}
 1. [Baselines](https://rechtsprechung-im-ostseeraum.archiv.uni-greifswald.de/de/baselines/)
