@@ -12,7 +12,7 @@ date:   5.4.2024
 
 narrator: German Male
 
-icon: transkribus2\Bilder\cau-norm-de-lilagrey-rgb-0720.png
+icon: Bilder/cau-norm-de-lilagrey-rgb-0720.png
 
 -->
 
@@ -70,9 +70,6 @@ Zwei der wichtigsten Bereiche der ATR sind die OCR und die HTR.
 2. Komplementär dazu gibt es die **HTR (Handwritten Text Recognition)**, also die Handschriftenerkennung. Genau wie OCR ist es eine Methode, die es Computern ermöglicht, aus Bildern handschriftliche Texte zu lesen und zu verstehen und sie in ein digitales Format zu überführen. Daher wird HTR hauptsächlich dafür verwendet, um handschriftliche Notizen, Briefe, Dokumente und andere Texte in digitale Formate umzuwandeln, die von Computern bearbeitet werden können.
 
 -----
-
-Eine gute Einführung zu ATR und ihren Feldern gibt auch dieses Video aus der Tutorialreihe des DHIP.
-!?[ATR](https://www.youtube.com/watch?v=Arxi4iHFQlM&list=PLDPrG35gxvrSxC86tTZJoEFLn3q0C7ds5)
 
 ********************************************************************************
 
@@ -170,14 +167,14 @@ Für den Export als XLSX-Datei, TEI und ALTO XML ist ein "Scholar" Konto notwend
 ********************************************************************************
 
 ## 2.4 Der Workflow in Transkribus
-Vereinfacht lässt sich der Workflow von Transkribus in drei Schritte einteilen: 
+Vereinfacht lässt sich der Workflow von Transkribus in drei Schritte einteilen:
 
-Zunächst müssen die Quellen auf die Server der READ-COOP hochgeladen werden. Alle hochgeladenen Dateien werden auf Servern in Innsbruck (Österreich) gespeichert. Dabei stehen die hochgeladenen Materialien ausschließlich Ihnen zur Verfügung. Sofern Sie kollaborativ mit mehreren Personen an den Quellen arbeiten möchten, können Sie diese Ihrer Collection hinzufügen. 
+Zunächst müssen die Quellen auf die Server der READ-COOP hochgeladen werden. Alle hochgeladenen Dateien werden auf Servern in Innsbruck (Österreich) gespeichert. Dabei stehen die hochgeladenen Materialien ausschließlich Ihnen zur Verfügung. Sofern Sie kollaborativ mit mehreren Personen an den Quellen arbeiten möchten, können Sie diese Ihrer Collection hinzufügen.
 
 Nach dem Hochladen Ihrer Materialien, können Sie direkt mit einem öffentlichen Modell transkribieren. Dabei wird sowohl die Layout- als auch die Texterkennung direkt ausgeführt. Die Ergebnisse können Sie anschließend aus Transkribus heraus, zum Beispiel als Word-Dokument, exportieren.
 Grundsätzlich stellt dies nur den vereinfachten Workflow dar. Sie können auch einen Teil manuell transkribieren und daraus ein eigenes Modell zum transkribieren Ihrer Texte erstellen. Gleichwohl ist es möglich, Modelle zu trainieren, die Tags und Tabellen automatisch setzen.
 
-Exportieren.
+Nachdem Sie Ihre Digitalisate fertig transkribiert haben, können Sie diese für die weitere Verwendung exportieren oder aber direkt kostenpflichtig über Transkribus Sites publizieren.
 
 ![Transkribus](Bilder/Workflow_Transkribus.png)
 
@@ -205,14 +202,16 @@ Mit dem "Individual" Konto hat man Zugriff auf alle grundlegenden Funktionen von
 
 ********************************************************************************
 
+
 # 3 Transkribus als Web-App (Ein Beispielprojekt)
 
 {{0-1}}
 ********************************************************************************
 Exemplarisch soll hier einmal der Workflow in Transkribus anhand eines Tagebuchfragments aus den Beständen der Universitätsbibliothek zu Kiel nachvollzogen werden. Hierfür ist es notwendig, dass Sie sich einen Account bei der READ-COOP einrichten, um auf Transkribus zugreifen zu können. Die Einrichtung des "Individual" Kontos ist kostenlos und können Sie [hier abschließen.](https://account.readcoop.eu) Am Ende dieser Einheit können Sie Ihr neu erworbenes Wissen in einem Quiz auf die Probe stellen.
 
+![Bild 4](Bilder/Anmeldung_Transkribus.png)
 
-![Bild 4](transkribus2\Bilder\Anmeldung_Transkribus.png)
+********************************************************************************
 
 {{1}}
 ********************************************************************************
@@ -258,8 +257,8 @@ Rechts neben dem "Desk" befindet sich die Seite für die Modelle. Dort werden al
 ********************************************************************************
 Rechts daneben befindet sich die Seite von Transkribus Sites. Transkribus Sites dient dazu bereits fertig transkribierte Corpora zu publizieren.
 
-
 ![Bild b](Bilder/Transkribus_Sites.png)
+********************************************************************************
 
 {{3}}
 ********************************************************************************
@@ -384,7 +383,6 @@ Wenn Sie nun ihre Quelle manuell transkribieren möchten, so müssen Sie zuerst 
 {{1-2}}
 ********************************************************************************
 Nun müssen Sie die Bereiche innerhalb der Textregion definieren, in denen die Textzeilen stehen. Dafür wählen Sie aus den Tools "Add Line" aus und ziehen die Linien (Baselines) entlang der Zeilen in ihrer Quelle. Dadurch definieren Sie die Zeilen in ihrer Textregion und fügen dann automatisch auf der rechten Seite die Zeile ein. Dadurch können Sie nun auf der rechten Seite die Transkription der entsprechenden Zeile vornehmen. Das Setzen der Textregion und der Baselines wird in der Layoutrecognition automatisch ausgeführt, wenn Sie Texte automatisch transkribieren lassen. Dies ist jedoch fehleranfälliger, da die KI z.B. auch etwaige Verunreinigungen oder Randnotizen als eine vollwertige Zeile anerkennen kann.
-
 
 ![Bild h](Bilder/Baselines.png)
 
@@ -696,7 +694,7 @@ Wenn Sie selbst ein Modell trainieren möchten, so gibt es hier ein paar Hinweis
 
 6. Transformermodelle wie der "Text-Titan I" sind aktuell die größten Modelle in Transkribus. Sollten Sie ein "Scholar-Konto" haben, sollten Sie die ausprobieren.
 
-# 5. Projekte, Hilfen und weiterführende Ansätze von Transkribus
+# 5 Projekte, Hilfen und weiterführende Ansätze von Transkribus
 
 {{0-1}}
 ********************************************************************************
@@ -752,7 +750,7 @@ Studierende und Forschende, die ein Projekt, sei es privat oder universitär, mi
 
 ********************************************************************************
 
-# 6. Alternativen zu Transkribus
+# 6 Alternativen zu Transkribus
 
 {{0-1}}
 ********************************************************************************
@@ -765,7 +763,7 @@ Auch wenn dieser Leitfaden hauptsächlich dazu dient, eine Einführung in Transk
 [eScriptorium](https://www.sofer.info/) ist eine Open-Source alternative, die auf der OCR-Software Kraken basiert. Dies hat den Vorteil, dass es auch möglich ist, seine eigenen, trainierten Modelle zu exportieren. Jedoch muss dafür eine eigenen Instanz auf einem Server oder lokal auf dem PC installiert werden oder aber man erhält über eine Institution einen Zugang.
 
 
-![Bild 8](transkribus2\Bilder\e-Scriptorium.png)
+![Bild 8](Bilder/e-Scriptorium.png)
 
 ********************************************************************************
 
@@ -804,7 +802,7 @@ Auch wenn dieser Leitfaden hauptsächlich dazu dient, eine Einführung in Transk
 [Arkindex](https://teklia.com/our-solutions/) ist ein Produkt von Teklia und bietet genau wie Transkribus eine Plattform zum Bearbeiten und Transkribieren von Dokumenten. In Arkindex können nicht nur die Transkriptionen sondern auch die dazugehörigen Zeilen im Bild annotiert werden. Teklia ist auch als Partner bei eScriptorium involviert.
 
 
-![Bild 8](transkribus2\Bilder\Arkindex.png)
+![Bild 8](Bilder/Arkindex.png)
 
 ********************************************************************************
 
@@ -827,6 +825,8 @@ Auch wenn dieser Leitfaden hauptsächlich dazu dient, eine Einführung in Transk
 ********************************************************************************
 [ChatGPT](https://openai.com/chatgpt/) kann auch für OCR und HTR genutzt werden. Jedoch sind die Ergebnisse bis jetzt noch nicht sehr überzeugend hinsichtlich der Handschriftenerkennung. Außerdem sollte auch hinsichtlich des Datenschutzes überlegt werden, ob man ChatGPT nutzt.
 
+********************************************************************************
+
 {{7-8}}
 ********************************************************************************
 | Unterpunkte           | Transkribus | e-Scriptorium | OCR4all | OCRD | Pero | Arkindex | ChatGPT |
@@ -841,7 +841,7 @@ Auch wenn dieser Leitfaden hauptsächlich dazu dient, eine Einführung in Transk
 
 ********************************************************************************
 
-# 7. Linkverzeichnis
+# 7  Linkverzeichnis
 
 ## 7.1 ATR, HTR und OCR Tools
 
@@ -863,15 +863,14 @@ Auch wenn dieser Leitfaden hauptsächlich dazu dient, eine Einführung in Transk
 ## 7.3 Sonstige
 
 1. [CER und WER Uni Greifswald](https://rechtsprechung-im-ostseeraum.archiv.uni-greifswald.de/word-error-rate-character-error-rate-how-to-evaluate-a-model/)
-2. [DHIP Tutorial für ATR und HTR auf Youtube](https://www.youtube.com/watch?v=Arxi4iHFQlM&list=PLDPrG35gxvrSxC86tTZJoEFLn3q0C7ds5)
-3. [Transkribus Helpdesk](https://help.transkribus.org/kb-tickets/new)
-4. [Transkribus Erfolgsgeschichten](https://readcoop.eu/de/erfolgsgeschichten/)
-5. [Transkribus Price & Plans](https://www.transkribus.org/plans)
-6. [Transkribus Registrierung](https://account.readcoop.eu/auth/realms/readcoop/protocol/openid-connect/auth?client_id=readcoop-wp&scope=openid%20profile%20roles&redirect_uri=https%3A%2F%2Freadcoop.eu%2Fsso&response_type=code&state=eyI2MTcwNzA2ZTYxNmQ2NSI6eyJWIjoiNTI2NTYxNjQ2MzZmNmY3MDIwNTM1MzRmIiwiSCI6IjczNTM2M2FmNTAyODIwNWFhODA3MTAwZDg0NWE0Y2E0In0sIjcyNjU2NDY5NzI2NTYzNzQ1Zjc1NzI2OSI6eyJWIjoiNjg3NDc0NzA3MzNhMmYyZjcyNjU2MTY0NjM2ZjZmNzAyZTY1NzUyZiIsIkgiOiIxNjZlODQwZmFmMjM2YzFkZmFmNmZiN2JlN2NkNzcyNiJ9LCI3NTY5NjQiOnsiViI6IjQ0NDYzODU2NGI0YTRmMzU0NjQ0NDg1YTQxNTI0MjUyMzU1YTQ0NTMzMjU2MzU0YTM2MzY1NTMyNGU0NDUyIiwiSCI6IjhhNTc5ZDdjODRjOTg0ZDVhODBmNGM2YjhmMGQ0NjljIn19)
-7. [READ-COOP](https://readcoop.eu/)
-8. [READ-COOP/ Transkribus Youtube-Kanal](https://www.youtube.com/@transkribus)
+2. [Transkribus Helpdesk](https://help.transkribus.org/kb-tickets/new)
+3. [Transkribus Erfolgsgeschichten](https://readcoop.eu/de/erfolgsgeschichten/)
+4. [Transkribus Price & Plans](https://www.transkribus.org/plans)
+5. [Transkribus Registrierung](https://account.readcoop.eu/auth/realms/readcoop/protocol/openid-connect/auth?client_id=readcoop-wp&scope=openid%20profile%20roles&redirect_uri=https%3A%2F%2Freadcoop.eu%2Fsso&response_type=code&state=eyI2MTcwNzA2ZTYxNmQ2NSI6eyJWIjoiNTI2NTYxNjQ2MzZmNmY3MDIwNTM1MzRmIiwiSCI6IjczNTM2M2FmNTAyODIwNWFhODA3MTAwZDg0NWE0Y2E0In0sIjcyNjU2NDY5NzI2NTYzNzQ1Zjc1NzI2OSI6eyJWIjoiNjg3NDc0NzA3MzNhMmYyZjcyNjU2MTY0NjM2ZjZmNzAyZTY1NzUyZiIsIkgiOiIxNjZlODQwZmFmMjM2YzFkZmFmNmZiN2JlN2NkNzcyNiJ9LCI3NTY5NjQiOnsiViI6IjQ0NDYzODU2NGI0YTRmMzU0NjQ0NDg1YTQxNTI0MjUyMzU1YTQ0NTMzMjU2MzU0YTM2MzY1NTMyNGU0NDUyIiwiSCI6IjhhNTc5ZDdjODRjOTg0ZDVhODBmNGM2YjhmMGQ0NjljIn19)
+6. [READ-COOP](https://readcoop.eu/)
+7. [READ-COOP/ Transkribus Youtube-Kanal](https://www.youtube.com/@transkribus)
 
-# 8. Glossar
+# 8 Glossar
 
 {{0-1}}
 ********************************************************************************
