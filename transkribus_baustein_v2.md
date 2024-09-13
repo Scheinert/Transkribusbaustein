@@ -47,7 +47,47 @@ Dieser Guide ist für alle gedacht, die sich in ihren Seminaren mit Transkribus 
 {{1}}
 ********************************************************************************
 
-Abbildung
+``` ascii
+        .-----.           
+       (  PDFs )       .-----.                    .-----.          .-----.        +----.
+        `-----´       (  JPGs )                  ( DOCX  )        (  XLSX )       | TEI )
+               \       `-----´                    `-----´          `-----´        +----´
+                \         |                         |             /              /
+                 \        |                         |            /              /
+   .-----.        \       |                         |           /              /
+  ( JPGs  )        .-----------.                   .-----------.        .-----.    .----------. 
+   `-----´---------|   Import  |                   |  Export   |-------(  XML  )  ( Annotieren )
+                   '-----------'                   '-----------'        `-----´    `----------´    
+                                \                 /                               /
+                                 \               /                               /
+                                  \             /                               /
+  .-------.                        .-----------.          .--------------------.
+ ( Manuell )                       |Transkribus|----------|  Strukturerkennung |
+  `-------´                        '-----------'          '--------------------'
+           \                      /             \                               \
+            \                    /               \                               \
+             \                  /                 \                               \
+              .----------------.                   .----------------.              .---------------------------------.
+              | Transkribieren |                   | Modelltraining |             ( Layout-/ Field-/ Tablerecognition )
+              '----------------'                   '----------------'              `---------------------------------´
+             /                                    /                  \
+            /                                    /                    \
+           /                                    /                      \
+ .------------.                 .--------------.                        .--------------.
+( Automatisiert)               ( Eigene Modelle )                      (   Evaluieren   )
+ `------------´                 `--------------´                        `--------------´
+                                                                       /                \
+                                                                      /                  \
+                                                                     /                    \
+                                                                .---.                      .---.
+                                                               ( CER )                    ( WER )
+                                                                `---´                      `---´
+```        
+
+
+
+
+
 
 
 ********************************************************************************
@@ -185,7 +225,7 @@ Bezüglich der Datenschutzrichtlinien:[Datenschutzrichtlinien der READ-COOP](htt
 {{0-1}}
 ********************************************************************************
 Grundsätzlich benötigen Sie für alle Tätigkeiten in Transkribus einen Account bei der READ-COOP. Diesen können Sie sich kostenlos auf der [Hauptseite der READ-COOP](https://readcoop.eu) einrichten.
-Wenn Sie ihre Digitalisate händisch oder manuell transkribieren, entstehen Ihnen für die Nutzung von Transkribus erst einmal keine Kosten. Wenn Sie die automatische Layout-und Texterkennung nutzen, müssen Sie dies jedoch mit sogenannten Credits zahlen. Diese Credits sind die Währung in Transkribus, mit der Sie alle Tätigkeiten, für die Sie KI-Modelle nutzen, bezahlen.
+Wenn Sie Ihre Digitalisate händisch oder manuell transkribieren, entstehen Ihnen für die Nutzung von Transkribus erst einmal keine Kosten. Wenn Sie die automatische Layout-und Texterkennung nutzen, müssen Sie dies jedoch mit sogenannten Credits zahlen. Diese Credits sind die Währung in Transkribus, mit der Sie alle Tätigkeiten, für die Sie KI-Modelle nutzen, bezahlen.
 Im Januar 2024 wurde das Bezahlmodell umgestellt: Demnach werden allen Personen, die ein "Individual" Konto haben, 100 Credits jeden Monat kostenlos zur Verfügung gestellt, welche nach einer bestimmten Zeit verfallen, wenn sie nicht genutzt werden. Das "Individual" Konto ist das Standardkonto in Transkribus und ist kostenfrei. Langfristig ermöglicht es Ihnen mehr Flexibilität für eigene Projekte und ist für Anfänger mehr als ausreichend.
 
 
@@ -230,7 +270,7 @@ Die Fragmente können auf der Seite der UB heruntergeladen werden. Dafür öffne
 
 {{0-1}}
 ********************************************************************************
-Wenn Sie sich zum ersten mal einloggen, gelangen Sie auf die Startseite von Transkribus Desk. In Transkribus Desk finden Sie alle Funktionen von Transkribus, die zum Bearbeiten, Verwalten und Transkribieren ihrer Digitalisate notwendig sind. Der Desk ist aufgeteilt in drei Bereiche:
+Wenn Sie sich zum ersten mal einloggen, gelangen Sie auf die Startseite von Transkribus Desk. In Transkribus Desk finden Sie alle Funktionen von Transkribus, die zum Bearbeiten, Verwalten und Transkribieren Ihrer Digitalisate notwendig sind. Der Desk ist aufgeteilt in drei Bereiche:
 
 
 1. **Die Startseite:**
@@ -365,7 +405,7 @@ Die Einstellungsmöglichkeiten:
 
 {{0-1}}
 ********************************************************************************
-Wenn Sie nun ihre Quelle manuell transkribieren möchten, so müssen Sie zuerst im Digitalisat die Fläche definieren, in der sich der zu transkribierende Text befindet. Dafür wählen Sie in der Leiste oben rechts das Tool "Add Region" aus und ziehen eine Fläche über die ganze Seite. Wenn Sie dies gemacht haben, erscheint im rechten Feld ein Banner mit "Region 1". Die daraus resultierende Fläche definiert den Bereich, in dem ein Text vorhanden ist.
+Wenn Sie nun Ihre Quelle manuell transkribieren möchten, so müssen Sie zuerst im Digitalisat die Fläche definieren, in der sich der zu transkribierende Text befindet. Dafür wählen Sie in der Leiste oben rechts das Tool "Add Region" aus und ziehen eine Fläche über die ganze Seite. Wenn Sie dies gemacht haben, erscheint im rechten Feld ein Banner mit "Region 1". Die daraus resultierende Fläche definiert den Bereich, in dem ein Text vorhanden ist.
 
 
 1. 
@@ -382,7 +422,7 @@ Wenn Sie nun ihre Quelle manuell transkribieren möchten, so müssen Sie zuerst 
 
 {{1-2}}
 ********************************************************************************
-Nun müssen Sie die Bereiche innerhalb der Textregion definieren, in denen die Textzeilen stehen. Dafür wählen Sie aus den Tools "Add Line" aus und ziehen die Linien (Baselines) entlang der Zeilen in ihrer Quelle. Dadurch definieren Sie die Zeilen in ihrer Textregion und fügen dann automatisch auf der rechten Seite die Zeile ein. Dadurch können Sie nun auf der rechten Seite die Transkription der entsprechenden Zeile vornehmen. Das Setzen der Textregion und der Baselines wird in der Layoutrecognition automatisch ausgeführt, wenn Sie Texte automatisch transkribieren lassen. Dies ist jedoch fehleranfälliger, da die KI z.B. auch etwaige Verunreinigungen oder Randnotizen als eine vollwertige Zeile anerkennen kann.
+Nun müssen Sie die Bereiche innerhalb der Textregion definieren, in denen die Textzeilen stehen. Dafür wählen Sie aus den Tools "Add Line" aus und ziehen die Linien (Baselines) entlang der Zeilen in Ihrer Quelle. Dadurch definieren Sie die Zeilen in Ihrer Textregion und fügen dann automatisch auf der rechten Seite die Zeile ein. Dadurch können Sie nun auf der rechten Seite die Transkription der entsprechenden Zeile vornehmen. Das Setzen der Textregion und der Baselines wird in der Layoutrecognition automatisch ausgeführt, wenn Sie Texte automatisch transkribieren lassen. Dies ist jedoch fehleranfälliger, da die KI z.B. auch etwaige Verunreinigungen oder Randnotizen als eine vollwertige Zeile anerkennen kann.
 
 ![Bild h](Bilder/Baselines.png)
 
@@ -392,7 +432,7 @@ Nun müssen Sie die Bereiche innerhalb der Textregion definieren, in denen die T
 
 {{0-1}}
 ********************************************************************************
-Wenn Sie nun ihre Digitalisate automatisch transkribieren möchten, so gibt es zwei Möglichkeiten:
+Wenn Sie nun Ihre Digitalisate automatisch transkribieren möchten, so gibt es zwei Möglichkeiten:
 {{0-1}}
 1. Öffnen Sie die Collection, in der sich die Documents befinden, die Sie transkribieren lassen möchten. Wählen Sie hier die entsprechenden Seiten mit einem Häkchen aus. Klicken Sie anschließend auf „Recognise“
 
@@ -431,7 +471,7 @@ Auf der linken Seite zeigt sich der erkannte Text sowie die sogenannte Textregio
 {{3-4}}
 ********************************************************************************
 Alternativer Ansatz:
-Im Home Bildschirm werden Ihnen ihre Collections und ihre zuletzt genutzten Dokumente angezeigt. Sie können nun über den Button „Quick Text Recognition“ ihre Quellen direkt hochladen und mit einem Modell lesen lassen.
+Im Home Bildschirm werden Ihnen Ihre Collections und Ihre zuletzt genutzten Dokumente angezeigt. Sie können nun über den Button „Quick Text Recognition“ Ihre Quellen direkt hochladen und mit einem Modell lesen lassen.
 
 
 ![Bild 8](Bilder/quick_recog1.png)
@@ -440,7 +480,7 @@ Im Home Bildschirm werden Ihnen ihre Collections und ihre zuletzt genutzten Doku
 
 {{4-5}}
 ********************************************************************************
-Geben Sie an, in welcher Sprache ihre Quelle geschrieben ist und ob sie handschriftlich oder gedruckt sind. Transkribus wählt dann anhand dieser Parameter das passende Modell zum automatischen Transkribieren aus. Wählen Sie dann eine Collection aus, in der ihre Quellen abgelegt werden sollen (die Collection muss vorher erstellt werden) und fügen Sie die gewünschten Dateien ein.
+Geben Sie an, in welcher Sprache Ihre Quelle geschrieben ist und ob sie handschriftlich oder gedruckt sind. Transkribus wählt dann anhand dieser Parameter das passende Modell zum automatischen Transkribieren aus. Wählen Sie dann eine Collection aus, in der Ihre Quellen abgelegt werden sollen (die Collection muss vorher erstellt werden) und fügen Sie die gewünschten Dateien ein.
 
 
 ![Bild 8](Bilder/Fast_recognition.png)
@@ -451,7 +491,7 @@ Geben Sie an, in welcher Sprache ihre Quelle geschrieben ist und ob sie handschr
 
 {{0-1}}
 ********************************************************************************
-Wenn Sie ihre Dokumente nun transkribiert haben, können Sie ihre Texte mit Meta-Daten anreichern. Hierfür können Sie mit sogenannten "Tags" Wörter oder Sätze markieren, um ihnen eine Eigenschaft zuzuordnen. Damit Sie die Tags nutzen können, müssen Sie diese erst für ihr jeweiliges Dokument aktivieren. Dies machen Sie in der Leiste rechts oben.
+Wenn Sie Ihre Dokumente nun transkribiert haben, können Sie Ihre Texte mit Meta-Daten anreichern. Hierfür können Sie mit sogenannten "Tags" Wörter oder Sätze markieren, um ihnen eine Eigenschaft zuzuordnen. Damit Sie die Tags nutzen können, müssen Sie diese erst für ihr jeweiliges Dokument aktivieren. Dies machen Sie in der Leiste rechts oben.
 
 
 ![Bild 8](Bilder/Tag_0.png)
@@ -489,7 +529,7 @@ Nun können Sie alle Orte im Text taggen. Markieren Sie dafür den entsprechende
 
 {{0-1}}
 ********************************************************************************
-Öffnen Sie das Dokument aus dem Sie ihre transkribierten Seiten exportieren möchten und markieren Sie die zu exportierenden Bilder mit einem Häkchen. Klicken Sie dann auf Export. 
+Öffnen Sie das Dokument aus dem Sie Ihre transkribierten Seiten exportieren möchten und markieren Sie die zu exportierenden Bilder mit einem Häkchen. Klicken Sie dann auf Export. 
 
 
 ![Bild 8](Bilder/Export_1.png)
@@ -498,7 +538,7 @@ Nun können Sie alle Orte im Text taggen. Markieren Sie dafür den entsprechende
 
 {{1-2}}
 ********************************************************************************
-Wählen Sie dann das entsprechende Dateiformat aus. Sie erhalten einen Downloadlink auf ihre angegebene Emailadresse, worüber Sie ihre Transkription vom Server herunterladen können.
+Wählen Sie dann das entsprechende Dateiformat aus. Sie erhalten einen Downloadlink auf Ihre angegebene Emailadresse, worüber Sie Ihre Transkription vom Server herunterladen können.
 
 
 ![Bild 8](Bilder/Export_2.png)
@@ -519,7 +559,7 @@ Wie nennt man die Technologien, die für die automatische Transkription in Trans
 
 ### Frage 2
 
-Welche Dateiformate können Sie zum Hochladen ihrer Quellen verwenden?
+Welche Dateiformate können Sie zum Hochladen Ihrer Quellen verwenden?
 
 [[ ]] .docx
 [[x]] .pdf
@@ -554,11 +594,11 @@ Kann Transkribus sowohl gedruckten als auch handschriftlichen Text verarbeiten?
 
 ### Frage 6
 
-Wie können Nutzer:innen ihre eigenen Modelle verbessern?
+Wie können Nutzer:innen Ihre eigenen Modelle verbessern?
 
-[[ ]] Indem sie sie möglichst oft verwenden
-[[x]] Indem sie sicherstellen, dass ihre Ground Truth korrekt ist
-[[x]] Indem sie sich bei der manuellen Transkriptionen an einheitliche Richtlinien halten
+[[ ]] Indem Sie sie möglichst oft verwenden
+[[x]] Indem Sie sicherstellen, dass Ihre Ground Truth korrekt ist
+[[x]] Indem Sie sich bei der manuellen Transkriptionen an einheitliche Richtlinien halten
 [[ ]] Durch das Teilen von Dokumenten auf Social Media
 
 ### Frage 7
@@ -601,10 +641,10 @@ Nachdem Sie nun die grundlegenden Funktionen von Transkribus anhand von Gneisena
 
 -----
 
-Neben den öffentlichen Modellen, die Sie nutzen können, um aus ihren Digitalisaten den Text zu extrahieren, besteht auch die Möglichkeit eigene Modelle zu trainieren. Eigene Modelle zu trainieren kann dann besonders Sinn ergeben, wenn:
+Neben den öffentlichen Modellen, die Sie nutzen können, um aus Ihren Digitalisaten den Text zu extrahieren, besteht auch die Möglichkeit eigene Modelle zu trainieren. Eigene Modelle zu trainieren kann dann besonders Sinn ergeben, wenn:
 
 1. die öffentlichen Modelle nicht sehr gut auf Ihren Materialien funktionieren. Handschriften sind sehr individuell, weshalb es teilweise sehr schwer ist, passende Modelle zu finden, die genau zum Digitalisat passen.
-2. Sie viele Sonderzeichen in ihren Handschriften haben, die nicht in öffentlichen Modellen enthalten sind.
+2. Sie viele Sonderzeichen in Ihren Handschriften haben, die nicht in öffentlichen Modellen enthalten sind.
 3. Sie viele Seiten zum transkribieren haben.
 
 -----
@@ -645,8 +685,8 @@ Sie können auswählen, ob Transkribus selbst ein Validationset anhand von 10%, 
 
 {{2-3}}
 ********************************************************************************
-Wenn Sie nun ihren Datensatz aufgeteilt haben, können Sie noch entsprechende Metadaten (Name, Zeitraum der Handschrift, Beschreibungen, etc.) hinzufügen.
-Außerdem können Sie sich hier entscheiden, ob Sie ihr Modell auf einem bereits bestehenden trainieren möchten. Dies kann für Sie dann interessant sein, wenn ein öffentliches Modell grundsätzlich gut auf ihren Digitalisaten performt, jedoch mit einzelnen Zeichen Probleme hat. Sie können das entsprechende öffentliche Modell als Basis für ihr Modell nutzen und es mit ihrem Datensatz anpassen.
+Wenn Sie nun Ihren Datensatz aufgeteilt haben, können Sie noch entsprechende Metadaten (Name, Zeitraum der Handschrift, Beschreibungen, etc.) hinzufügen.
+Außerdem können Sie sich hier entscheiden, ob Sie ihr Modell auf einem bereits bestehenden trainieren möchten. Dies kann für Sie dann interessant sein, wenn ein öffentliches Modell grundsätzlich gut auf Ihren Digitalisaten performt, jedoch mit einzelnen Zeichen Probleme hat. Sie können das entsprechende öffentliche Modell als Basis für ihr Modell nutzen und es mit Ihrem Datensatz anpassen.
 
 
 ![Bild 8](Bilder/Parameter.png)
@@ -682,7 +722,7 @@ Weiterführend dazu: [CER und WER Uni Greifswald](https://rechtsprechung-im-osts
 
 Wenn Sie selbst ein Modell trainieren möchten, so gibt es hier ein paar Hinweise:
 
-1. Stellen Sie Regeln für ihre Transkription und den Workflow auf. Transkribus kann Abkürzungen und Sonderzeichen erkennen und umsetzen. Wenn Sie in ihrer Ground Truth nur willkürlich die Sonderzeichen oder Abkürzungen genutzt haben, so kann es beim automatisierten Transkribieren ebenfalls willkürlich wirken. Konsistenz ist wichtig.
+1. Stellen Sie Regeln für Ihre Transkription und den Workflow auf. Transkribus kann Abkürzungen und Sonderzeichen erkennen und umsetzen. Wenn Sie in Ihrer Ground Truth nur willkürlich die Sonderzeichen oder Abkürzungen genutzt haben, so kann es beim automatisierten Transkribieren ebenfalls willkürlich wirken. Konsistenz ist wichtig.
 
 2. Wenn Sie Modelle trainieren, so trainieren Sie ein Modell dass das Schriftbild erkennt und **nicht** die Sprache. Grammatik und Rechtschreibung werden von Modellen nicht beherrscht. Wenn Sie aus versehen z.B Großbuchstaben innerhalb von Wörtern vergessen oder stehen lassen, anstatt sie zu korrigieren, kann es sein, dass das Modell eben solche auch in den Text übernehmen wird.
 
@@ -727,7 +767,7 @@ Die READ-COOP betreibt auch einen eigenen Youtube-Kanal, auf dem Sie sich Tutori
 
 {{2-3}}
 ********************************************************************************
-Falls sie sich tiefergehend mit ATR in den Geisteswissenschaften und Alternativen zu Transkribus auseinandersetzen wollen, sei Ihnen die Playlist des Deutschen Historischen Instituts Paris bezüglich Workflows bei ATR empfohlen.
+Falls Sie sich tiefergehend mit ATR in den Geisteswissenschaften und Alternativen zu Transkribus auseinandersetzen wollen, sei Ihnen die Playlist des Deutschen Historischen Instituts Paris bezüglich Workflows bei ATR empfohlen.
 
 
 !?[Transkribus](https://www.youtube.com/watch?v=Arxi4iHFQlM&list=PLDPrG35gxvrSxC86tTZJoEFLn3q0C7ds5)
@@ -736,7 +776,7 @@ Falls sie sich tiefergehend mit ATR in den Geisteswissenschaften und Alternative
 
 {{3-4}}
 ********************************************************************************
-Transkribus wird in den Geisteswissenschaften auf vielfältige Art und Weise verwendet. Eine Reihe von Projekte stellen die READ-COOP auf ihrer Website vor:
+Transkribus wird in den Geisteswissenschaften auf vielfältige Art und Weise verwendet. Eine Reihe von Projekte stellen die READ-COOP auf Ihrer Website vor:
 [Erfolgsgeschichten](https://readcoop.eu/de/erfolgsgeschichten/)
 
 ********************************************************************************
@@ -746,7 +786,7 @@ Transkribus wird in den Geisteswissenschaften auf vielfältige Art und Weise ver
 **Scholarship**
 
 
-Studierende und Forschende, die ein Projekt, sei es privat oder universitär, mit Transkribus umsetzen möchten, können sich um ein Scholarship bewerben. Mit diesem Scholarship erhalten sie Credits zur Unterstützung. Außerdem können auch Lehrende, die Transkribus für Schulprojekte nutzen möchten sich bewerben. [Zu den Scholarships](https://www.transkribus.org/scholarship)
+Studierende und Forschende, die ein Projekt, sei es privat oder universitär, mit Transkribus umsetzen möchten, können sich um ein Scholarship bewerben. Mit diesem Scholarship erhalten Sie Credits zur Unterstützung. Außerdem können auch Lehrende, die Transkribus für Schulprojekte nutzen möchten sich bewerben. [Zu den Scholarships](https://www.transkribus.org/scholarship)
 
 ********************************************************************************
 
