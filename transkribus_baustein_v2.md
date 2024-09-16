@@ -22,6 +22,9 @@ icon: Bilder/cau-norm-de-lilagrey-rgb-0720.png
 ********************************************************************************
  Ziel dieser Einführung ist es, ein erstes Verständnis für den Workflow in Transkribus zu schaffen und den Prozess vom Datenimport über die automatische Transkription bis hin zum Export anhand von Fragmenten eines Briefes aus den Beständen der Universitätsbibliothek Kiel nachzuvollziehen. Der Fokus dieser Einführung liegt auf der Browser-Applikation "Transkribus Lite", da der Expert-Client nicht mehr unterstützt und voraussichtlich abgeschafft wird.
 
+>Für diesen Baustein wurde der Release vom 20.8.2024 genutzt
+
+
 >Dieser Guide ist für alle gedacht, die sich in ihren Seminaren mit Transkribus auseinandersetzen, es lehren oder privat nutzen möchten.
 
 **Lernziele**
@@ -202,6 +205,7 @@ Wenn Sie einen Text spontan transkribieren oder einfach mal die Funktionen von T
    - XML-Standard für Dokumente, welcher neben der Transkription weitere Metadaten enthält.
 4. **PDF**:
    - PDFs beinhalten sowohl den transkribierten Text, als auch das entsprechende Bild.
+---------------   
 5. **XLSX**:
    - Tabellen und Tags können Sie als XLSX-Datei exportieren, sodass sie in Excel zur Verfügung stehen.
 6. **ALTO**:
@@ -326,7 +330,7 @@ Abschließend sei hier auf die beiden Schaltflächen oben rechts verwiesen:
 
 {{0-1}}
 ********************************************************************************
-Um die Tagebuchfragmente, die Sie von der Seite der UB heruntergeladen haben später in Transkribus hochzuladen, müssen Sie zunächst eine Collection anlegen. Eine Collection entspricht einem Ordner, in dem Sie alle Ihre hochgeladenen Digitalisate, seien es einzelne Bilder oder ganze Jahrgänge, in sogenannten Documents zusammenfassen und verwalten können. Daher muss zuerst eine Collection angelegt werden, um die zukünftigen Digitalisate abzulegen.
+Um die Tagebuchfragmente, die Sie von der Seite der Universitätsbibliothek Kiel heruntergeladen haben später in Transkribus hochzuladen, müssen Sie zunächst eine Collection anlegen. Eine Collection entspricht einem Ordner, in dem Sie alle Ihre hochgeladenen Digitalisate, seien es einzelne Bilder oder ganze Jahrgänge, in sogenannten Documents zusammenfassen und verwalten können. Daher muss zuerst eine Collection angelegt werden, um die zukünftigen Digitalisate abzulegen.
 
 
 ![Bild 6](/Bilder/Collection_erstellen.png)
@@ -363,6 +367,7 @@ Nachdem Sie ihre Dateien hochgeladen haben dauert es einen Moment, bis Ihnen Ihr
 ********************************************************************************
 Wenn Sie nun auf einen der Briefe klicken, öffnet sich der Editor. Hier stehen Ihnen verschiedene Funktionen zur Verfügung, um den Brief zu transkribieren oder mit Metadaten anzureichern:
 
+![Bild d](Bilder/Editor_1.jpg)
 
 1.
   - Hier befinden sich alle Tools die Sie brauchen, wenn Sie das Layout des Briefes händisch erfassen wollen. Außerdem gibt es auch eine Verknüpfung zur automatisierten Erfassung [T].
@@ -384,7 +389,6 @@ Wenn Sie nun auf einen der Briefe klicken, öffnet sich der Editor. Hier stehen 
   - Hier können Sie zwischen den einzelnen Seiten des Briefes hin und her wechseln.
 
 
-![Bild d](Bilder/Editor_1.jpg)
 
 ********************************************************************************
 
@@ -816,7 +820,7 @@ Auch wenn dieser Leitfaden hauptsächlich dazu dient, eine Einführung in Transk
 
 {{2-3}}
 ********************************************************************************
-Ähnlich wie eScriptorium ist auch [OCR4all](https://www.ocr4all.org) Open-source. Ähnlich wie eScriptorium brauch OCR4all eine eigene Instanz und muss über Docker installiert werden. Der Fokus liegt hauptsächlich auf Fraktur- und Antiquaschriften aus dem 19. Jahrhundert.
+Ähnlich wie eScriptorium ist auch [OCR4all](https://www.ocr4all.org) Open-source. OCR4all braucht ebenfalls eine eigene Instanz und muss über Docker installiert werden. Der Fokus liegt hauptsächlich auf Fraktur- und Antiquaschriften aus dem 19. Jahrhundert.
 
 
 <iframe
