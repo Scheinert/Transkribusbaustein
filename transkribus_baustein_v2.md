@@ -20,8 +20,9 @@ icon: Bilder/cau-norm-de-lilagrey-rgb-0720.png
 
 {{0-1}}
 ********************************************************************************
-Dieser Guide ist für alle gedacht, die sich in ihren Seminaren mit Transkribus auseinandersetzen, es lehren oder privat nutzen möchten. Ziel dieser Einführung ist es, ein erstes Verständnis für den Workflow in Transkribus zu schaffen und den Prozess vom Datenimport über die automatische Transkription bis hin zum Export anhand von Fragmenten eines Briefes aus den Beständen der Universitätsbibliothek Kiel nachzuvollziehen. Der Fokus dieser Einführung liegt auf der Browser-Applikation "Transkribus Lite", da der Expert-Client nicht mehr unterstützt und voraussichtlich abgeschafft wird.
+ Ziel dieser Einführung ist es, ein erstes Verständnis für den Workflow in Transkribus zu schaffen und den Prozess vom Datenimport über die automatische Transkription bis hin zum Export anhand von Fragmenten eines Briefes aus den Beständen der Universitätsbibliothek Kiel nachzuvollziehen. Der Fokus dieser Einführung liegt auf der Browser-Applikation "Transkribus Lite", da der Expert-Client nicht mehr unterstützt und voraussichtlich abgeschafft wird.
 
+>Dieser Guide ist für alle gedacht, die sich in ihren Seminaren mit Transkribus auseinandersetzen, es lehren oder privat nutzen möchten.
 
 **Lernziele**
 
@@ -100,7 +101,7 @@ Dieser Guide ist für alle gedacht, die sich in ihren Seminaren mit Transkribus 
 ********************************************************************************
 
 
-# 1 OCR, HTR und Transkribus: Eine kurze Einführung in die automatisierte Texterkennung
+# 1  ATR, OCR und HTR: Eine kurze Einführung in die automatisierte Texterkennung
 
 {{0-1}}
 ********************************************************************************
@@ -122,7 +123,7 @@ Zwei der wichtigsten Bereiche der ATR sind die OCR und die HTR.
 
 {{1-2}}
 ********************************************************************************
-Auch wenn sich dieser Guide auf Transkribus als Plattform für OCR und HTR fokussiert, so soll hier einmal Nopaque als eine reine OCR Plattform vorgestellt werden. Nopaque vereint neben OCR auch ein weiteres Tool: Natural Language Processing (NLP). Für Analysen, für die HTR benötigt wird besitzt Nopaque eine Transkribus HTR Pipeline.
+Auch wenn sich dieser Guide auf Transkribus als Plattform für OCR und HTR fokussiert, so soll hier einmal Nopaque als eine reine OCR Plattform genannt werden. Nopaque vereint neben OCR auch ein weiteres Tool: Natural Language Processing (NLP). Für Analysen, für die HTR benötigt wird besitzt Nopaque eine Transkribus HTR Pipeline.
 
 
 <iframe
@@ -207,7 +208,6 @@ Wenn Sie einen Text spontan transkribieren oder einfach mal die Funktionen von T
    - Exportieren von Transkriptionen in ALTO (Analyzed Layout and Text Object) XML-Format für detaillierte Layout-Informationen.
 7. **TEI**:
    - Format für Personen, die mit der Text Encoding Initiative arbeiten und die Transkriptionen nach z.B Oxygen exportieren wollen.
-
 
 Für den Export als XLSX-Datei, TEI und ALTO XML ist ein "Scholar" Konto notwendig. Das kostenlose "Individual" Konto bietet diese Option nicht.
 
