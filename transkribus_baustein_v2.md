@@ -23,8 +23,7 @@ icon: Bilder/cau-norm-de-lilagrey-rgb-0720.png
  Ziel dieser Einführung ist es, ein erstes Verständnis für den Workflow in Transkribus zu schaffen und den Prozess vom Datenimport über die automatische Transkription bis hin zum Export anhand von Fragmenten eines Briefes aus den Beständen der Universitätsbibliothek Kiel nachzuvollziehen. Der Fokus dieser Einführung liegt auf der Browser-Applikation "Transkribus Lite", da der Expert-Client nicht mehr unterstützt und voraussichtlich abgeschafft wird.
 
 >Für diesen Baustein wurde der Release vom 20.8.2024 genutzt
-
-
+>
 >Dieser Guide ist für alle gedacht, die sich in ihren Seminaren mit Transkribus auseinandersetzen, es lehren oder privat nutzen möchten.
 
 **Lernziele**
