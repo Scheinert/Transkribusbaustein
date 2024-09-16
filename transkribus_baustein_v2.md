@@ -25,7 +25,7 @@ Dieser Guide ist für alle gedacht, die sich in ihren Seminaren mit Transkribus 
 
 **Lernziele**
 
-> :dart: Die Lernenden können nach Durchführung des Einführungsguides...      
+> 🎯 Die Lernenden können nach Durchführung des Einführungsguides...      
 
 > * ... benennen, was ATR, HTR, OCR ist.
 >
