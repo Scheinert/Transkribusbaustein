@@ -25,7 +25,7 @@ Dieser Guide ist für alle gedacht, die sich in ihren Seminaren mit Transkribus 
 
 **Lernziele**
 
-> :dart: Die Lernenden können nach Durchführung des Einführungsguides...      
+> :dart:Die Lernenden können nach Durchführung des Einführungsguides...      
 
 > * ... benennen, was ATR, HTR, OCR ist.
 >
@@ -42,12 +42,11 @@ Dieser Guide ist für alle gedacht, die sich in ihren Seminaren mit Transkribus 
 > * ... ein kleines Modell trainieren.
 
 
-> ____________________________________________
+ ____________________________________________
 
 > Autor: Philipp Scheinert, Referat für Digital Humanities und Forschungsdatenmanagement an der Universitätsbibliothek Kiel
 > This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/) with exception of the used material from other copyright holders.
 
-<div style="page-break-after: always;"></div>
 
 ********************************************************************************
 
