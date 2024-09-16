@@ -46,7 +46,7 @@ Dieser Guide ist für alle gedacht, die sich in ihren Seminaren mit Transkribus 
 
 > Autor: Philipp Scheinert, Referat für Digital Humanities und Forschungsdatenmanagement an der Universitätsbibliothek Kiel
 >
-> This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/) with exception of the used material from other copyright holders.
+> ![ccby](Bilder/ccby.png)This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/) with exception of the used material from other copyright holders.
 
 ********************************************************************************
 
