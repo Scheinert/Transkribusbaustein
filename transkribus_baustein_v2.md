@@ -204,12 +204,16 @@ Wenn Sie einen Text spontan transkribieren oder einfach mal die Funktionen von T
    - XML-Standard für Dokumente, welcher neben der Transkription weitere Metadaten enthält.
 4. **PDF**:
    - PDFs beinhalten sowohl den transkribierten Text, als auch das entsprechende Bild.
+5. **Text files (TXT)**
+   - Enthalten den reinen, transkribierten Text.
+6. **Image**
+   - Sie können ihre Digitalisate auch als Image im JPG-Format wieder exportieren.
 ---------------   
-5. **XLSX**:
+7. **XLSX**:
    - Tabellen und Tags können Sie als XLSX-Datei exportieren, sodass sie in Excel zur Verfügung stehen.
-6. **ALTO**:
+8. **ALTO**:
    - Exportieren von Transkriptionen in ALTO (Analyzed Layout and Text Object) XML-Format für detaillierte Layout-Informationen.
-7. **TEI**:
+9. **TEI**:
    - Format für Personen, die mit der Text Encoding Initiative arbeiten und die Transkriptionen nach z.B Oxygen exportieren wollen.
 
 Für den Export als XLSX-Datei, TEI und ALTO XML ist ein "Scholar" Konto notwendig. Das kostenlose "Individual" Konto bietet diese Option nicht.
