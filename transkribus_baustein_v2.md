@@ -188,6 +188,7 @@ Auf einer Cloud-Infrastruktur basierend ermöglicht es Transkribus dem Benutzer 
 
 
 Wenn Sie einen Text spontan transkribieren oder einfach mal die Funktionen von Transkribus ausprobieren möchten, können Sie mit Transkribus AI einfach ein Dokument hochladen, die entsprechende Sprache auswählen und ihr Dokument erkennen lassen. Dies funktioniert auch vom Smartphone aus-> [Transkribus AI](https://transkribus.ai/)
+[qr-code](https://transkribus.ai/)
 
 ********************************************************************************
 
