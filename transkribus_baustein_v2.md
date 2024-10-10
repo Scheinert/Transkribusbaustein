@@ -782,21 +782,12 @@ Die READ-COOP betreibt auch einen eigenen Youtube-Kanal, auf dem Sie sich Tutori
 
 {{2-3}}
 ********************************************************************************
-Falls Sie sich tiefergehend mit ATR in den Geisteswissenschaften und Alternativen zu Transkribus auseinandersetzen wollen, sei Ihnen die Playlist des Deutschen Historischen Instituts Paris bezüglich Workflows bei ATR empfohlen.
-
-
-!?[Transkribus](https://www.youtube.com/watch?v=Arxi4iHFQlM&list=PLDPrG35gxvrSxC86tTZJoEFLn3q0C7ds5)
-
-********************************************************************************
-
-{{3-4}}
-********************************************************************************
 Transkribus wird in den Geisteswissenschaften auf vielfältige Art und Weise verwendet. Eine Reihe von Projekte stellen die READ-COOP auf Ihrer Website vor:
 [Erfolgsgeschichten](https://readcoop.eu/de/erfolgsgeschichten/)
 
 ********************************************************************************
 
-{{4-5}}
+{{3-4}}
 ********************************************************************************
 **Scholarship**
 
