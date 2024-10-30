@@ -200,7 +200,7 @@ Wenn Sie einen Text spontan transkribieren oder einfach mal die Funktionen von T
 1. **JPG**:
    - Alle importierten Bilder können auch als JPG-Datei wieder heruntergeladen werden.
 2. **DOCX**:
-   - Export der Transkiptionen in ein Worddokument.  
+   - Export der Transkriptionen in ein Worddokument.  
 3. **Page (XML)**:
    - XML-Standard für Dokumente, welcher neben der Transkription weitere Metadaten enthält.
 4. **PDF**:
@@ -231,7 +231,7 @@ Grundsätzlich stellt dies nur den vereinfachten Workflow dar. Sie können auch 
 
 Nachdem Sie Ihre Digitalisate fertig transkribiert haben, können Sie diese für die weitere Verwendung exportieren oder aber direkt kostenpflichtig über Transkribus Sites publizieren.
 
-![Transkribus](Bilder/Workflow_Transkribus.png)
+![Transkribus](Bilder\flowchart_workflow.jpg "By: Pollin, C., Strutz, S., Reiter, G. M., Steiner, C., & Klug, H. W. (2024). Digital Edition Creation Pipelines: Tools and Transitions (DigEdTnT) (Version 1.0)")
 
 Bezüglich der Datenschutzrichtlinien:[Datenschutzrichtlinien der READ-COOP](https://www.transkribus.org/plans) (Stand Juli 2024))
 
@@ -323,7 +323,7 @@ Abschließend sei hier auf die beiden Schaltflächen oben rechts verwiesen:
 1. **Jobs:**
    - Hier erhalten Sie einen Überblick über die letzten Aufträge ("Jobs") die auf dem Server der  READ-COOPausgeführt wurden. Dort können Sie überprüfen, ob ihre Digitalisate fertig hochgeladen wurden, ihr Modelltraining abgeschlossen ist oder aber Ihre Layout- und Text Recognition fertig ist.
 2. **Profil Icon**
-   - Hier könnnen Sie Ihr Profil verwalten, die Sprache einstellen oder Ihren Creditverbrauch überwachen.
+   - Hier können Sie Ihr Profil verwalten, die Sprache einstellen oder Ihren Creditverbrauch überwachen.
 
 
 ![Bild c](Bilder/Transkribus_Jobs.png)
@@ -461,10 +461,10 @@ Wenn Sie nun Ihre Digitalisate automatisch transkribieren möchten, so gibt es z
 In diesem Menü können Sie nun einstellen, welches Modell Sie nutzen möchten.
 
 
-1. Hier könnne Sie Modell nun nach Sprache, gedruckt oder ungegdruckt, oder Jahrhundert filtern. Wenn Sie genug Material haben, können Sie auch später ein eigenes Model trainieren und es benutzen.
+1. Hier könnnen Sie Modell nun nach Sprache, gedruckt oder ungedruckt, oder Jahrhundert filtern. Wenn Sie genug Material haben, können Sie auch später ein eigenes Model trainieren und es benutzen.
 2. Hier sehen Sie die Parameter des aktuell ausgewählten Modells.
 3. Hier können Sie die automatische Transkription starten und erhalten einen Überblick, wie viele Credits für das Transkribieren verbraucht werden. Wenn Sie die Recognition starten, kann es ein paar Sekunden oder aber auch eine Stunde dauern, bis die Transkription fertiggestellt ist. Es hängt davon ab, wie viele Seiten Sie transkribieren lassen wollen und wie stark der Server bereits ausgelastet ist.
-4. Hier wird angezeigt, welche Collection geöffnet ist und welcher Modelltyp genutzt wird. Zurzeit können Sie nur auf die "Textrecognition" (erkennen und transkribieren von Texten) zugreifen. Zu einem späteren Zeitpunkt soll Transkribus auch um selbsttrainierbare Modelle zur Layout-, Field- und Tablerecognition erweitert werden. Diese sollen dann dabei helfen, besondere oder herausfordernde Strukturen, wie z.B. Tabellen, zu erfassen.
+4. Hier wird angezeigt, welche Collection geöffnet ist und welcher Modelltyp genutzt wird. Zurzeit können Sie nur auf die "Textrecognition" (erkennen und transkribieren von Texten) zugreifen. Zusätzlich ist es möglich  Modelle zur Layout-, Field- und Tablerecognition zu trainieren Diese sollen dann dabei helfen, besondere oder herausfordernde Strukturen, wie z.B. Tabellen, zu erfassen.
 
 
 ![Bild 8](Bilder/Modellauswahl.png)
@@ -733,7 +733,11 @@ Transkribus verwendet nur die CER als Messzahl für die Modelle. Diese können S
 
 Weiterführend dazu: [CER und WER Uni Greifswald](https://rechtsprechung-im-ostseeraum.archiv.uni-greifswald.de/word-error-rate-character-error-rate-how-to-evaluate-a-model/)
 
-## 4.3 Tipps, Tricks und Transformermodelle
+## 4.3 Table- und Layouttraining
+
+>Work in Progress
+
+## 4.4 Tipps, Tricks und Transformermodelle
 
 Wenn Sie selbst ein Modell trainieren möchten, so gibt es hier ein paar Hinweise:
 
@@ -948,3 +952,7 @@ Die wichtigsten Begriffe für Transkribus sind mit dem entsprechenden Quellen ve
 5. [Transformermodelle (Super Models)](https://help.transkribus.org/super-models)
 
 ********************************************************************************
+
+# 9 Quellen 
+
+> Work in Progress
